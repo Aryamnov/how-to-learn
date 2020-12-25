@@ -222,28 +222,9 @@
   position: relative;
 }
 
-.section-title {
-  padding-top: 90px;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .section-title_theme_dark {
   color: white;
-}
-
-.section-subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 60%;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 90px;
 }
 
 .section-subtitle_theme_dark {
@@ -294,7 +275,7 @@
 }
 
 .footer__column_content_copyright {
-  display: flex;  
+  display: flex;
   flex-basis: 711px;
   position: relative;
   flex-wrap: wrap;
