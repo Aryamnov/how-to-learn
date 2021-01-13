@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -12,6 +21,7 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .logo {
@@ -76,6 +86,11 @@
   z-index: 0;
 }
 
+.rotation {
+  animation: rotation 20s linear 0s infinite;
+}
+
+
 .two-columns {
   width: 80%;
   display: flex;
@@ -113,6 +128,78 @@
 .two-columns__paragraph:nth-child(2) {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.techniques {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards__item {
+  list-style-type: none;
+  width: 240px;
+  padding-top: 60px;
+  padding-right: 100px;
+}
+
+.cards__item:nth-child(3) {
+  padding-right: 0px;
+}
+
+.cards__item:nth-child(6) {
+  padding-right: 0px;
+}
+
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+.cards__title {
+  padding-bottom: 16px;
+  padding-top: 43px;
+  margin: 0;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards__description {
+  text-align: center;
+  font-weight: normal;
+  line-height: 23px;
+  font-size: 18px;
+}
+
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+}
+
+.video__iframe {
+  list-style-type: none;
+  width: 515px;
+  height: 316px;
+  padding-right: 20px;
+}
+
+.video__iframe:nth-child(2) {
+  padding-right: 0;
 }
 
 .section-title {
