@@ -1,0 +1,15 @@
+.cards__item {
+    display: block;
+    list-style-type: none;
+    width: 240px;
+    padding-top: 60px;
+    padding-right: 100px;
+  }
+  
+  .cards__item:nth-child(3) {
+    padding-right: 0px;
+  }
+  
+  .cards__item:nth-child(6) {
+    padding-right: 0px;
+  }
